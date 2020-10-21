@@ -13,7 +13,7 @@
 }
 .header {
   grid-area: h;
-  background-color: blueviolet;
+  background-color: azure;
 }
 
 .header img {
@@ -21,12 +21,17 @@
 }
 
 .nav {
+  padding: 150px;
   grid-area: n;
 
-  background-color: brown;
+  background-color: yellow;
 }
 .content {
+  padding: 10px;
   grid-area: c;
-
-  background-color: darkorange;
+  background-color: navy;
+}
+.content img {
+  width: auto;
+  height: 600px;
 }

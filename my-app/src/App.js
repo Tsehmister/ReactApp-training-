@@ -2,31 +2,14 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 
 function App() {
   return ( 
     <div className = 'app-wrapper'>
         <Header />
-
         <Navbar />
-      <div className='content'>
-          <div> <img src='https://www.pixelstalk.net/wp-content/uploads/2016/09/Free-it-computer-wallpapers-download.jpg'/> </div>
-
-          <div>Avatar + description<img src='https://i.pinimg.com/originals/48/75/f8/4875f8ebfbc2106393e041e872a10d08.png'/></div>
-          <div>
-            My posts
-            <div>
-              new posts
-            </div>
-          </div>
-          <div>
-            <div>Post1</div>
-            <div>Post2</div>
-            <div>Post3</div>
-            <div>Post4</div>
-          </div>
-          
-      </div>
+        <Profile />
     </div>);
 }
 
