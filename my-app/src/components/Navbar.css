@@ -1,0 +1,21 @@
+.nav {
+  padding: 65px;
+  grid-area: n;
+
+  background-color: yellow;
+}
+
+.item {
+  color: black;
+
+  font-size: 64px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 1px 1px 1px black, 0 0 0.3em black;
+}
+
+.item_active {
+  color: blue;
+  font-size: 64px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 1px 1px 1px black, 0 0 0.3em black;
+}

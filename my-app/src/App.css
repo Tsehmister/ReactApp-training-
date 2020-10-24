@@ -11,27 +11,3 @@
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
 }
-.header {
-  grid-area: h;
-  background-color: azure;
-}
-
-.header img {
-  width: 75px;
-}
-
-.nav {
-  padding: 150px;
-  grid-area: n;
-
-  background-color: yellow;
-}
-.content {
-  padding: 10px;
-  grid-area: c;
-  background-color: navy;
-}
-.content img {
-  width: auto;
-  height: 600px;
-}
