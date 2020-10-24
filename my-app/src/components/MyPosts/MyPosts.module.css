@@ -8,8 +8,8 @@
   height: 600px;
 }
 
-.item_posts,
-.Post {
+.item,
+.Posts {
   font-size: 64px;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;

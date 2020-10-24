@@ -1,0 +1,13 @@
+.content {
+  padding: 10px;
+  grid-area: c;
+  background-color: navy;
+}
+.content img {
+  width: auto;
+  height: 400px;
+}
+#image_small {
+  width: 250px;
+  height: 250px;
+}
